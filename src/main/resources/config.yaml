@@ -1,0 +1,17 @@
+environment:
+  test:
+    envName: test
+    webTitle: Rozwiązania i usługi IT, inżynierii i BPO - Sii Polska
+    appUrl: https://www.sii.pl
+    active: true
+  preprod:
+    envName: preprod
+    webTitle: Logback Home
+    appUrl: https://logback.qos.ch/
+    active: false
+
+browser:
+  browserName: chrome
+  attachscreenshot: true
+  headless: false
+  webelementTimeout: 30
